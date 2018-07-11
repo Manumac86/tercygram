@@ -1,0 +1,13 @@
+body{
+    background-color: #e3f2fd;
+}
+
+.iphone img{
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+.signup-form{
+    margin: 20px 0;
+    padding: 0 auto; 
+}

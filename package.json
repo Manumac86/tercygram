@@ -1,0 +1,24 @@
+{
+  "name": "tercygram",
+  "version": "0.1.0",
+  "description": "La nueva red social. Expresate como quieras.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manumac86/tercygram.git"
+  },
+  "keywords": [
+    "tercygram",
+    "social",
+    "nuevetercios"
+  ],
+  "author": "Emmanuel Martinez <emmartinez86@gmail.com> (https://twitter.com/manumac86)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Manumac86/tercygram/issues"
+  },
+  "homepage": "https://github.com/Manumac86/tercygram#readme"
+}
