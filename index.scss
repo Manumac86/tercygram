@@ -1,5 +1,10 @@
+$secondary-color: #125688;
+
+@import "node_modules/materialize-css/sass/materialize.scss";
+
 body{
     background-color: #e3f2fd;
+    font-family: Lato;
 }
 
 .iphone img{
@@ -11,3 +16,8 @@ body{
     margin: 20px 0;
     padding: 0 auto; 
 }
+
+.title{
+    font-family: Lobster;
+}
+
