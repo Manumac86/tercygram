@@ -6926,3 +6926,28 @@ body {
 
 .title {
   font-family: Lobster; }
+
+.timeline {
+  padding: 30px auto; }
+
+.avatar {
+  max-width: 48px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px; }
+
+.card small.time {
+  line-height: 48px; }
+
+.card p {
+  padding: 20px 0; }
+
+.card .likes {
+  line-height: 30px;
+  margin-left: 10px; }
+
+.card i {
+  font-size: 30px; }
+
+.card .fa-heart {
+  color: #125688; }

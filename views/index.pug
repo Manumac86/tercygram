@@ -2,6 +2,7 @@ html
     head
         link(href='https://fonts.googleapis.com/css?family=Lato|Lobster' rel='stylesheet')
         link(rel='stylesheet' href='app.css')
+        link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous")
         meta(charset="UTF-8")
         meta(name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no')
         link(rel='apple-touch-icon', sizes='57x57', href='/apple-icon-57x57.png')
@@ -21,12 +22,13 @@ html
         meta(name='msapplication-TileColor', content='#ffffff')
         meta(name='msapplication-TileImage', content='/ms-icon-144x144.png')
         meta(name='theme-color', content='#ffffff')
+        title=title
     body
         section#main-container
         footer.site-footer
             .container.blue-text.text-darken-4
                 .row
-                    .col.s12.l3.center-align
+                    .col.s12.l4.center-align
                         a.dropdown-trigger.btn(href='#', data-target='dropdown1') Drop me!
                         ul#dropdown1.dropdown-content
                             li
@@ -34,10 +36,10 @@ html
                             li
                                 a(href='#!') two
                             li.divider(tabindex='-1')
-                    .col.l3.s12.center-align
+                    .col.l4.s12.center-align
                         h5.blue-text TercyGram
                         p.blue-text.text-lighten-2 La nueva red social. Expresate mejor.
-                    .col.l3.offset-l2.s12.center-align
+                    .col.l4.s12.center-align
                         ul
                             li
                                 a.blue-text.text-lighten-3(href='/') Home
@@ -53,6 +55,6 @@ html
                     .container.center-align
                         | OrangeTools © 2018 Copyright
         script(src='https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js')
-        script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js')
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js")
         script(src='app.js')
         

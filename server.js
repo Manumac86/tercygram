@@ -8,8 +8,16 @@ app.set('view engine', 'pug');
 
 app.use(express.static('public'));
 
-app.get(['/','/signup', '/signin'], function (req, res) {
-    res.render('index');
+app.get('/', function (req, res) {
+    res.render('index', { title: 'TercyGram' });
+})
+
+app.get('/signup', function (req, res) {
+    res.render('index', { title: 'TercyGram - SignUp' });
+})
+
+app.get('/signin', function (req, res) {
+    res.render('index', { title: 'TercyGram - SignIn' });
 })
 
 
